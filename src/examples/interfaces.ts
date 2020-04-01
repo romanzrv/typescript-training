@@ -10,10 +10,10 @@ interface Person {
     lastName: string;
 }
 
-let user = { firstName: "Jane", lastName: "User" };
+let user = { firstName: "Zancos", lastName: "Coin" };
 
 function getName(person: Person) {
     return "Hello, " + person.firstName + " " + person.lastName;
 }
 
-getName(user);
+getName(user as Person);
