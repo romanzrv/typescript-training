@@ -13,5 +13,3 @@ class Person {
         this.fullName = `${firstName} ${lastName}`;
     }
 }
-
-export default Person;
